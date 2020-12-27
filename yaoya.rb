@@ -47,16 +47,15 @@ if quantity >= 5
   puts "５個以上なので１０％割引になります！"
   puts "#{item[select_num-1]}が#{quantity}個で、合計金額は#{total_price}円です。"
   puts "お買い上げありがとうございました！"
+  puts ""
 
 else
   puts ""
   puts "#{item[select_num-1]}が#{quantity}個で、合計金額は#{total_price}円です。"
   puts "お買い上げありがとうございました！"
-
+  puts ""
 end
-# puts "#{item[select_num-1]}が#{quantity}個で"
-# puts "合計金額は#{total_price}円です。"
-# puts "お買い上げありがとうございました！"
+
 
 
 
